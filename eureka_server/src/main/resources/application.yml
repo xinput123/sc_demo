@@ -1,0 +1,14 @@
+server:
+  port: 9090
+
+eureka:
+  client:
+    # 是否将自己注册到Eureka Server，默认true，由于当前应用就是Eureka Server，所以为false
+    register-with-eureka: false
+    # 是否从Eureka Server获取注册信息，默认为true。因为当前为单节点，故为false
+    fetch-registry: false
+    eureka-server-u-r-l-context: http://localhost:9090/eureka/
+
+spring:
+  application:
+    name: xinput-eureka

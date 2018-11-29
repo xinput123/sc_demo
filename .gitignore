@@ -1,0 +1,25 @@
+# idea
+.idea/
+
+bin/
+.eclipse
+/lib/
+/logs/
+/modules
+/project/project
+/project/target
+/target
+tmp/
+
+*.iml
+*.eml
+/dist/
+.cache
+/eclipse
+/.settings
+.project
+.classpath
+*.iws
+*.ids
+*.log
+
